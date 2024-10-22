@@ -1,0 +1,71 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecera {
+    height: 200px;
+    background-color: burlywood;
+}
+
+.cabecera img {
+    float: left;
+    width: 10%;
+}
+
+.cabecera .botones {
+    float: right;
+}
+
+.cabecera .botones a{
+    color: gray;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container ul li {
+    margin: 30px 10px;
+    font-size: 1.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container ul li a:hover {
+    font-size: 1.2em;
+    color: black;
+}
+
+.carrusel {
+    height: 140px;
+    background-color: coral;
+}
+img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: cadetblue;
+}
+
+h2 {
+    font-size: 1.7em;
+    text-align: center;
+    color: blue;
+}
