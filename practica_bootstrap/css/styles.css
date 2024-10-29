@@ -1,0 +1,34 @@
+header {
+    display: inline-flex;
+}
+
+header img {
+    width: 5%;
+}
+
+.alinear {
+    display: inline-flex;
+}
+
+.alinear div {
+    margin: 3% 2%;
+}
+
+.filas {
+    display: inline-flex;
+}
+
+.filas img {
+    margin: 3% 2%;
+    width: 20%;
+}
+
+.pie {
+    justify-content: center;
+    align-items: center;
+    background-color: #CCCCCC;
+}
+
+.pie img {
+    width: 10%;
+}
